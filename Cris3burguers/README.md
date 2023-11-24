@@ -1,4 +1,4 @@
-# Infinity-Shop
+# Cris3burguers
 
 1. [General Info](#general-info)
 2. [Technologies](#technologies)
