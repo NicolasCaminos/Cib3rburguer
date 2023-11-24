@@ -47,7 +47,6 @@ Esta app puede conectarse con los productos de firebase o bien con la API de Mer
 ``` bash
 git clone NicolasCaminos/Cris3burguers
 npm i
-npm run dev
 
 ```
 
