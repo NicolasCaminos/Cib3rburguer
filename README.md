@@ -42,15 +42,19 @@ Esta app puede conectarse con los productos de firebase o bien con la API de Mer
 
 ## Installation
 
-Para instalar los paquetes usados en el proyecto puede utilizar los siguientes comandos.
+1. Para instalar los paquetes usados en el proyecto puede utilizar los siguientes comandos.
+
+``` bash
+git clone NicolasCaminos/Cris3burguers
+npm i
+npm run dev
 
 ```
-git clone NicolasCaminos/Oasis
-npm i
-npm start
-npm install -g node-sass
-npm install --save sanitize.css
-npm create vite@latest
+
+2. Para desarrolladores.
+
+``` bash
+
 npm run dev
 
 ```
