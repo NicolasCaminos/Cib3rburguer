@@ -22,7 +22,6 @@ $font-sans: ui-sans-serif,
     "Segoe UI Emoji",
     "Segoe UI Symbol",
     "Noto Color Emoji" !default;
-
 $font-serif: ui-serif,
     Georgia,
     Cambria,
@@ -31,31 +30,25 @@ $font-serif: ui-serif,
     serif !default;
 
 /*font sizes*/
-
+$font-xs: 0.75rem !default;
 /*12px*/
 $font-sm: 0.85rem !default;
 /*14px*/
 $font-md: 1rem !default;
 /*16px*/
-$font-lg: 1.143rem !default;
+$font-lg: 1.125rem !default;
 /*18px*/
 $font-xl: 1.25rem !default;
 /*20px*/
-$font-2xl: 1.429rem !default;
-/*22px*/
-$font-2xl: 1.571rem !default;
-/*25px*/
-$font-4xl: 1.786rem !default;
-/*28px*/
-$font-5xl: 2rem !default;
+$font-2xl: 1.5rem !default;
+/*24px*/
+$font-3xl: 1.875rem !default;
 /*30*/
-$font-5xl: 2.25rem !default;
-/*30*/
-$font-5xl: 2.286rem !default;
-/*32px*/
-$font-6xl: 3rem !default;
+$font-4xl: 2.25rem !default;
+/*36px*/
+$font-5xl: 3rem !default;
 /*48px*/
-$font-7xl: 3.75rem !default;
+$font-6xl: 3.75rem !default;
 /*60px*/
 
 /* font weigth*/
@@ -81,7 +74,7 @@ $leading-loose : 2 !default;
 
 /*COLORS*/
 
-$color-slate-50: #FFFFFF !default;
+$color-slate-50: #FFF !default;
 $color-slate-100: #f1f5f9 !default;
 $color-slate-200: #e2e8f0 !default;
 $color-slate-300: #cbd5e1 !default;
@@ -92,6 +85,7 @@ $color-slate-700: #334155 !default;
 $color-slate-800: #1e293b !default;
 $color-slate-900: #0f172a !default;
 $color-slate-950: #020617 !default;
+
 $color-blue-50: #eff6ff !default;
 $color-blue-100: #dbeafe !default;
 $color-blue-200: #bfdbfe !default;
@@ -103,16 +97,15 @@ $color-blue-700: #1d4ed8 !default;
 $color-blue-800: #1e40af !default;
 $color-blue-900: #1e3a8a !default;
 $color-blue-950: #172554 !default;
+
 $color-green-300: #86efac !default;
 $color-green-400: #a3e635 !default;
+
 $color-red-300: #fca5a5 !default;
 $color-red-400: #f87171 !default;
+
 $color-orange-400: #fb923c !default;
 $color-orange: #FFCA2C !default;
-$color-font: #1A1A1A !default;
-$color-primary: #951113 !default;
-$color-secondary: #36121C !default;
-
 
 $shadow-color: var(--#{$prefix}-shadow-color, 51 65 85) !default;
 
@@ -132,7 +125,7 @@ $font-secondary: var(--#{$prefix}-font-secondary, $font-sans) !default;
 $font-size-base: var(--#{$prefix}-font-size-base, $font-md) !default;
 $font-weigth-base: var(--#{$prefix}-font-weigth-base, $font-normal) !default;
 $line-height-base: var(--#{$prefix}-line-height-base, $leading-normal) !default;
-$body-bg-color: var(--#{$prefix}-body-bg-color, $color-primary) !default;
-$body-bg-secondary-color: var(--#{$prefix}-body-bg-secondary-color, $color-secondary) !default;
+$body-bg-color: var(--#{$prefix}-body-bg-color, $color-slate-100) !default;
 $body-text-color: var(--#{$prefix}-body-text-color, $color-slate-500) !default;
 $heading-text-color: var(--#{$prefix}-heading-text-color, $color-slate-700) !default;
+$body-bg-darkmode-color: var(--#{$prefix}-body-bg-color, $color-orange) !default;
