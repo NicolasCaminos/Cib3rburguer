@@ -1,4 +1,4 @@
-# Cris3burguers
+# Mas Que Muebles (MQM)
 
 1. [General Info](#general-info)
 2. [Technologies](#technologies)
@@ -10,7 +10,7 @@
 
 ## General Info
 
-Sitio web creado para Cris3burguers.
+Sitio web creado para Mas Que Muebles. Una empresa ubicada en Mendonza que se dedica a la fabricación y venta de muebles.
 </br>
 Ramas de trabajo: El mismo cuenta con dos ramas de trabajo: main (donde se aloja el proyecto final) y en la rama V.01 donde se trabajan las updates y fix.
 
