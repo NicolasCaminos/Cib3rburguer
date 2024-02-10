@@ -107,6 +107,11 @@ $color-red-400: #f87171 !default;
 $color-orange-400: #fb923c !default;
 $color-orange: #FFCA2C !default;
 
+$color-primary:#951113;
+$color-secondary:#36121C;
+$color-text: #1A1A1A;
+$color-bg: #fefcfe;
+
 $shadow-color: var(--#{$prefix}-shadow-color, 51 65 85) !default;
 
 $shadow-sm: 0 1px 2px 0 rgb($shadow-color/0.5) !default;
@@ -125,7 +130,7 @@ $font-secondary: var(--#{$prefix}-font-secondary, $font-sans) !default;
 $font-size-base: var(--#{$prefix}-font-size-base, $font-md) !default;
 $font-weigth-base: var(--#{$prefix}-font-weigth-base, $font-normal) !default;
 $line-height-base: var(--#{$prefix}-line-height-base, $leading-normal) !default;
-$body-bg-color: var(--#{$prefix}-body-bg-color, $color-slate-100) !default;
+$body-bg-color: var(--#{$prefix}-body-bg-color, $color-bg) !default;
 $body-text-color: var(--#{$prefix}-body-text-color, $color-slate-500) !default;
 $heading-text-color: var(--#{$prefix}-heading-text-color, $color-slate-700) !default;
 $body-bg-darkmode-color: var(--#{$prefix}-body-bg-color, $color-orange) !default;
