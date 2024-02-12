@@ -1,15 +1,41 @@
 .header_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+  padding: 0 1.5rem;
+  border-bottom: 1.5px solid $color-secondary;
+
+  .header_logo {
+    margin: 0 auto;
+    height: 56px;
+  }
+
+  .header_span {
+    height: 24px;
+    width: 24px;
+  }
+}
+
+@media screen and (min-width: #{map-get($breakpoints, md)}) and (max-width: #{map-get($breakpoints, lg)}) {
+  .header_span {
+    height: 28px;
+    width: 28px;
+  }
+}
+
+@media screen and (min-width: #{map-get($breakpoints, xl)}) {
+  .header_container {
     display: flex;
     align-items: center;
+    flex-direction: row-reverse;
     justify-content: space-between;
-    height: 64px;
-    padding: 0 1.5rem;
-    border-bottom: 2px solid $color-secondary;
-  
-    .header_logo {
-      margin: 0 auto;
-      height: 56px;
+    padding: 0px 200px;
+
+    .header_span {
+      display: none;
     }
-  
   }
-  
+
+
+}

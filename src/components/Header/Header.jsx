@@ -1,13 +1,14 @@
-import { NavbarMobile } from "./Navbar.jsx"
+import { Link } from "react-router-dom"
+import { Navbar } from "./Navbar.jsx"
 
 export const Header = () => {
     return (
-        <div className="header_container">
-            <NavbarMobile />
+        <header className="header_container">
+            <Navbar />
 
-            <img src="/logoMQM.png" alt="Mas-Que-Muebles-logo" className="header_logo" />
+            <Link to={"/"}><img src="/logoMQM.png" alt="Mas-Que-Muebles-logo" className="header_logo" /></Link>
 
-            <span style={{width: "32px"}}></span>
-        </div>
+            <span className="header_span"></span>
+        </header>
     )
 }
