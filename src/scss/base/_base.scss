@@ -19,6 +19,7 @@ body {
     background-color: $body-bg-color !important;
     font-family: $font-primary;
     transition: 1000ms;
+    margin: 0;
 
     body::-webkit-scrollbar {
         width: 10px;

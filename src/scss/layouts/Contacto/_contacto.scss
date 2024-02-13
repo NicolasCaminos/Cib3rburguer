@@ -1,0 +1,106 @@
+.contacto_container {
+    padding: 32px 16px;
+    background-image: url("fondo-marmol.png");
+    background-position: center;
+
+    .contacto_aside {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+
+        .contacto_title {
+            margin-top: 0;
+            margin-bottom: 16px;
+            color: $color-primary;
+            font-size: $font-2xl;
+            font-family: Nyala;
+            font-weight: $font-medium;
+        }
+
+        .contacto_contentContainer {
+            display: flex;
+            align-items: flex-start;
+            align-self: stretch;
+            gap: 8px;
+            font-family: Roboto;
+
+            .contacto_contentText {
+                font-weight: $font-medium;
+                font-size: $font-sm;
+                color: $color-text;
+                margin: 0;
+            }
+
+            .contacto_contentLink {
+                font-weight: $font-medium;
+                ;
+                font-size: $font-sm;
+                color: $color-secondary;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: #{map-get($breakpoints, md)}) and (max-width: 1024px) {
+    .contacto_container {
+        padding: 88px 16px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 16px;
+
+        .contacto_aside {
+            width: 75%;
+
+            .contacto_title {
+                margin-bottom: 40px;
+                font-size: $font-3xl;
+            }
+
+            .contacto_contentContainer {
+
+                .contacto_contentText {
+                    font-size: $font-md;
+                }
+
+                .contacto_contentLink {
+                    font-size: $font-md;
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (min-width: #{map-get($breakpoints, xl)}) {
+    .contacto_container {
+        padding: 112px 200px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        gap: 16px;
+
+        .contacto_aside {
+            width: 75%;
+
+            .contacto_title {
+                margin-bottom: 48px;
+                font-size: $font-3xl;
+            }
+
+            .contacto_contentContainer {
+
+                .contacto_contentText {
+                    font-size: $font-md;
+                }
+
+                .contacto_contentLink {
+                    font-size: $font-md;
+                }
+            }
+        }
+
+    }
+}
