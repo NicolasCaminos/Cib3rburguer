@@ -52,7 +52,7 @@ export const Navbar = () => {
                             </ul>
                         </div>
                         <Link className="navbar_link">Testimonios</Link>
-                        <Link className="navbar_link">Contacto</Link>
+                        <a href="#contacto" onClick={handleMenuNavClose} className="navbar_link">Contacto</a>
                     </nav>
                 </div>
 

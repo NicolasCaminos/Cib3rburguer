@@ -3,7 +3,7 @@ import { MapGoogle } from "./Map.jsx";
 export const Contacto = () => {
 
     return (
-        <div className="contacto_container">
+        <div className="contacto_container" id="contacto">
 
             <div className="contacto_aside">
                 <h2 className="contacto_title">Contacto</h2>
